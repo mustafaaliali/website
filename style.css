@@ -1,8 +1,11 @@
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
-  margin:0;
-  background-color:#f4f4f4;
+  margin:auto;
+  background: url('img/bg.jpg') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
 }
 
 .container{
@@ -105,7 +108,8 @@ body {font-family: Verdana,sans-serif;margin:0}
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 2% 2px 1px 25%;
+  padding: auto;
 
 }
 
@@ -228,14 +232,30 @@ body {
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: red;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
+.topnav li{
+  display: initial;
+}
+  
+.topnav a{
+    display:inline-block;
+    padding:10px;
+}
+
 
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 33.33%;
-    padding: 15px;
+    padding: 10px;
+    background-color: orange;
 }
 
 /* Clear floats after the columns */
@@ -251,5 +271,5 @@ body {
         width: 100%;
     }
 }
-Chat conversation end
-Type a message...
+
+

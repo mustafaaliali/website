@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mvRestaurant</title>
+  <link rel="stylesheet" href="style-1.css">
+  <img src="img/logo.png" width="20%">
+</head>
+<body>
+
+    <header>
+      <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#About" class="active">About</a>
+  <a href="#Menu"class="active">Menu</a>
+  <a href="#Fedback"class="active">Feedback</a>
+  <a href="#Contact"class="active">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">City</label>
+    <select id="country" name="country">
+      <option value="leicester">Leicester</option>
+      <option value="Liverpool">Liverpool</option>
+      <option value="Coventry">Coventry</option>
+      <option value="London">London</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="footer">
+    <p>Practecal Assingnmet</p>
+</div>
+
+
+  </body>
+</html>

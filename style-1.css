@@ -233,48 +233,73 @@ body {
 .topnav a:hover {
     background-color: #ddd;
     color: red;
-    
 
-/*contact us CSS */
+
+
 
 }
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: orange;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+  
+}
+}
+
+    /* *********************************************************/
+
+    /* Contact us form CSS*/ 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 10px;
-    border: 5px solid gray;
+    padding: 20px;
+    border: 1px solid rgb(241, 9, 9);
     border-radius: 0px;
     box-sizing: border-box;
     resize: vertical;
-    font-size: 30px;
+    font-size: 20px;
     margin: 100px 5px, 10px 5px;
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: black;
-    padding: 30px 50px;
+    background-color: rgb(196, 7, 7);
+    color: white;
+    padding: 12px 30px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 input[type=submit]:hover {
+    background-color: rgb(247, 203, 10);
     text-decoration: none;
-    font-size: 20px;
-    margin: 10px;
+    
 }
 
 .container {
     border-radius: 5px;
-    background-color: orange;
+    background-color: rgb(240, 227, 206);
     padding: 100px;
-    font-size: 30px;
-    margin:  center;
-    margin-top: 10px;
+    margin: 10px 1000px 10px 175px; 
+    font-size: 25px;
 }
-.container form{
-  font-size: 20px;
-}
-}
+
 
 

@@ -13,7 +13,7 @@ body, html{
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
-  opacity:0.70;
+  opacity:0.90;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -70,6 +70,11 @@ body, html{
 
 .ptext .border.trans{
   background-color:transparent;
+}
+@media only screen and (max-width: 320px) {
+  .post-title {
+    font-size: 24px;
+  }
 }
 
 @media(max-width:568px){
@@ -175,55 +180,18 @@ color: red;
   font-size: 80px;
   font-weight: bold;
   text-align: center;
-  background: #e00909;
-  width: 100%;
-  height: 200px;
-  line-height: 200px;
-  position: absolute;
   bottom: 0;
   border-radius: 15px / 20px;
   text-shadow: 0 2px #700a03;
 }
 
 .strings {
-  width: 150px;
-  height: 150px;
-  border: solid 5px #ad5700;
   border-bottom: none;
   border-right: none;
   position: absolute;
-  top: 38px;
-  left: 122px;
+
   transform: rotatez(45deg);
 }
-
-.pin {
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  border-radius: 25px;
-}
-
-.pin.pin1 {
-  background: #9f9f9f;
-  top: 0;
-  left: 187px;
-}
-
-.pin.pin2, .pin.pin3 {
-  background: #9c0a00;
-}
-
-.pin.pin2 {
-  top: 110px;
-  left: 80px;
-}
-
-.pin.pin3 {
-  top: 110px;
-  right: 80px;
-}
-
 @keyframes init {
   from {
     transform: scale(0);
@@ -232,6 +200,116 @@ color: red;
     transform: scale(1);
   }
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(1, 6, 7);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:rgb(73, 72, 0);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid rgb(32, 29, 29);
+}
+::-webkit-input-placeholder {
+ color:rgb(65, 53, 53);
+}
+:-moz-placeholder {
+ color:rgb(51, 42, 42);
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
 
 
 
@@ -239,5 +317,5 @@ color: red;
   background: orange;
   text-align: center;
   padding: 2%;
+  
 }
-

@@ -67,7 +67,7 @@ function clock() {
     ctx.translate(75, 75);
     ctx.scale(0.4, 0.4);
     ctx.rotate(-Math.PI / 2);
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'red';
     ctx.fillStyle = 'white';
     ctx.lineWidth = 8;
     ctx.lineCap = 'round';
@@ -89,8 +89,8 @@ function clock() {
     for (i = 0; i < 60; i++) {
       if (i % 5!= 0) {
         ctx.beginPath();
-        ctx.moveTo(117, 0);
-        ctx.lineTo(120, 0);
+        ctx.moveTo(1170, 0);
+        ctx.lineTo(1200, 0);
         ctx.stroke();
       }
       ctx.rotate(Math.PI / 30);
@@ -140,7 +140,7 @@ function clock() {
     ctx.beginPath();
     ctx.arc(95, 0, 10, 0, Math.PI * 2, true);
     ctx.stroke();
-    ctx.fillStyle = 'rgba(0, 0, 0, 0)';
+    ctx.fillStyle = 'green';
     ctx.arc(0, 0, 3, 0, Math.PI * 2, true);
     ctx.fill();
     ctx.restore();

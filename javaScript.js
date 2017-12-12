@@ -49,3 +49,23 @@ function carousel() {
     x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 3000); // Change image every 3 seconds
 }
+
+function initMap() {
+    let london = {lat: 51.5074, lng: -0.1278};
+    let sh = {lat: 52.629311, lng: -1.137836};
+    let mapDemo = document.getElementById("map");
+  
+    // this sets the default location for when the map is first loaded
+    let map = new google.maps.Map(mapDemo, {
+      zoom: 13,
+      center: london
+    });
+  
+    // these set different markers you want to show on your map
+    let markersh = new google.maps.Marker({
+      position: dmu,
+      map: map,
+      title: 'The Good Guys'
+    });
+
+  }

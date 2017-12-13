@@ -65,7 +65,7 @@ function initMap() {
     let markersh = new google.maps.Marker({
       position: sh,
       map: map,
-      title: 'The Good Guys'
+      title: 'The Hotel'
     });
 
   }

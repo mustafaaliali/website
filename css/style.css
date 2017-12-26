@@ -448,6 +448,42 @@ img:active {
   -webkit-transform: scale(2);
   transform: scale(2);
 }
+svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filler {
+  position: absolute;
+  bottom: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#content  {  
+  width:300px;
+  margin: 100px auto 0 auto;
+  padding:20px 10px;
+}
+
+.icon{  
+  margin: 0 10px;
+  width:40px;
+  border-radius:3px;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  display:inline-block;
+
+}
+
+.icon:hover
+      {    -webkit-transform: rotate(350deg);
+           -webkit-transition: -webkit-transform 0.25s ease-in-out;}
+
+
 
 
 

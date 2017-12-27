@@ -28,7 +28,9 @@ HTML5
 
 
 Reference
+
 Compatibility
+
 The site is compatible with Chrome/FireFox and safari.
 
 There are some issues regarding API map for Firefox on FireFox you have to refresh the page few time before you can find the right location on the map or map has to be displayed and  which need to be sorted out for a flowing site but dues to shortage of time it was not addressed.

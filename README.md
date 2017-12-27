@@ -37,6 +37,8 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 Background/Images http://advisordesigns.com/blog/
 
+https://www.sitepoint.com/our-top-9-animation-libraries/
+
 second- https://stock.adobe.com/uk/search?load_type=search&native_visual_search=&similar_content_id=&k=restaurant&acp=1&aco=res
 
 Third, https://stock.adobe.com/uk/search?load_type=search&native_visual_search=&similar_content_id=&k=restaurant&acp=1&aco=res

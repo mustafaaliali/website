@@ -39,6 +39,9 @@ Third, https://stock.adobe.com/uk/search?load_type=search&native_visual_search=&
 
 all the images use from adobestock- https://stock.adobe.com/uk/?as_channel=sem&as_campclass=brand&as_campaign=UK%7CCPRO%7CStock%7CPURCH%7CBrand_top_Exact%7CBNG%7C%7C&as_source=bing&as_camptype=acquisition&sdid=PQ7SQCN3&s_kwcid=AL!3085!10!10290980361!21142984746&ef_id=Wft5tQAAAFfH-QZA:20171227232555:s
 
+SVG clock - http://www.3quarks.com/en/SVGClock/
+
+
 ##Compatibility
 
 The site is compatible with Chrome/FireFox and safari.

@@ -29,7 +29,11 @@ Design and Wireframes.
 
 ##Reference
 
-Load Animation/scrolling: W3School https://www.w3schools.com/howto/howto_css_loader.asp https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+Load Animation/scrolling: W3School https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_inner_html
+
+https://www.w3schools.com/css/css_navbar.asp
+
+https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 Background/Images http://advisordesigns.com/blog/
 

@@ -14,4 +14,26 @@ The technology and diffrent languages used for development of this project are H
 The site is simple to browse and is responsive.
 
 
-Design
+Design and Wireframes.
+
+
+
+Testing
+
+
+CSS
+
+
+HTML5
+
+
+Reference
+Compatibility
+The site is compatible with Chrome/FireFox and safari.
+
+There are some issues regarding API map for Firefox on FireFox you have to refresh the page few time before you can find the right location on the map or map has to be displayed and  which need to be sorted out for a flowing site but dues to shortage of time it was not addressed.
+
+##Improvements/Criticism Improvements
+
+Certainly concerning the site there are may improvements i would make some of which are: First i would look to the designe of the website and make it more attractive such as adding the more animation, add more suitable navigation that could go with the designee of the website and so on.. Second I would use a framework with a template tool to add more functionality for the site and allow it to have a working form. Third would be to make it compatible with different browser with custom rules for its layout.
+

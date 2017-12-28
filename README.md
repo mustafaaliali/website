@@ -25,7 +25,9 @@ Testing
 2 - Expected Results
 3 - Actual Results
 4 - Pass/Fail
+
 1
+
 1 - Testing Navigation bar is responsive
 2 - Navigation bar to change style when screen is smaller/larger
 3 - The navigation bar changed style when screen changed size

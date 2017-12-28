@@ -166,14 +166,19 @@ The slider works whit I expect.
 
 Pass 
 
-
- 
-
-
 # CSS
 
+CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The css also used to make the website responsive by adding the break points. 
 
 # HTML5
+
+ HTML is the language for describing the structure of Web pages. HTML gives authors the means to:
+    Publish online documents with headings, text, tables, lists, photos, etc.
+    Retrieve online information via hypertext links, at the click of a button.
+    Design forms for conducting transactions with remote services, for use in searching for information, making reservations,      ordering products, etc.
+    Include spread-sheets, video clips, sound clips, and other applications directly in their documents.
+    the HTML is ued to create the webite. 
+
 
 
 # Reference

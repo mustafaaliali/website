@@ -78,51 +78,59 @@ Pass
 # 6
 
 Does flex box in about page change layout appropriately when screen size is changed
-
 The flex box layout should change when screen size is changed
 The layout is in a row when screen size is small and in a column when screen size is medium or large
 Pass
-7
+
+# 7
 Does slideshow smoothly work on all pages
 For the images to display appropriately and smoothly in the slideshow on all pages
 The slideshow works and the images display one at a time and smoothly on all pages
 Pass
-8
+
+# 8
 Do all images resize appropriately when screen is changed
 The images need to resize appropriately depending on screen size 
 The images do resize perfectly when screen size is changed
 Pass
-9
+
+# 9
 Does dropdown menu work when clicked
 The dropdown menu in the first navigation bar should display when clicked
 The dropdown menu does indeed appear when clicked
 Pass
-10
+
+# 10
 Do all links in the navigation bar work and take user to the correct area  when clicked
 The links in the navigation bar should take the user to the correct page
 The links do work perfectly and take the user to the correct page
 Pass
-11
+
+# 11
 Does countdown clock work
 The countdown clock should be counting down to a set date
 The countdown clock does work and is counting down appropriately
 Pass
-12
+
+# 12
 Does google map show correct address
 Google map should show the address of the university 
 The map does indeed show the address of the university 
 Pass
-13 
+
+# 13 
 Dose the open animation  works 
 The animations display what is should display.  
 The animation do what is should supposed to do. 
 Pass
-14
+
+# 14
 Do the SVG clock work 
 The SVG clock work. 
 It display the correct time
 Pass 
-15
+
+# 15
 Do the slider on the images word 
 Yes it is display all the images on the slider section and it works. 
 The slider works whit I expect.
@@ -168,4 +176,5 @@ There are some issues regarding API map for Firefox on FireFox you have to refre
 Improvements/Criticism Improvements
 
 Certainly concerning the site there are may improvements i would make some of which are: First i would look to the designe of the website and make it more attractive such as adding the more animation, add more suitable navigation that could go with the designee of the website and so on.. Second I would use a framework with a template tool to add more functionality for the site and allow it to have a working form. Third would be to make it compatible with different browser with custom rules for its layout.
+
 

@@ -27,11 +27,13 @@ Testing
 4 - Pass/Fail
 
 1
+Testing Navigation bar is responsive
 
-1 - Testing Navigation bar is responsive
-2 - Navigation bar to change style when screen is smaller/larger
-3 - The navigation bar changed style when screen changed size
-4 - Pass
+Navigation bar to change style when screen is smaller/larger
+
+The navigation bar changed style when screen changed size
+
+Pass
 2
 1- Testing if all buttons scroll to the appropriate sections
 2 - For the scroll to take the user to correct section after clicking on the button

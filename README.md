@@ -35,28 +35,50 @@ Navigation bar to change style when screen is smaller/larger
 The navigation bar changed style when screen changed size
 
 Pass
-2
-1- Testing if all buttons scroll to the appropriate sections
-2 - For the scroll to take the user to correct section after clicking on the button
-3- The scroll is working perfectly, and takes user to the correct sections when button is clicked
-4 - Pass
-3
-1 - Does button on about page work
-2 - The user should be taken to courses page when button is clicked
-3 - The button does work as the user is taken to the courses page
-4 - Pass
-4
+
+# 2
+
+Testing if all buttons scroll to the appropriate sections
+
+For the scroll to take the user to correct section after clicking on the button
+
+The scroll is working perfectly, and takes user to the correct sections when button is clicked
+
+Pass
+
+# 3
+
+Does button on about page work
+
+The user should be taken to courses page when button is clicked
+
+The button does work as the user is taken to the courses page
+
+Pass
+# 4
+
 Is the layout responsive when screen size is changed?
+
 The layout on all pages should change when screen size changes
+
 The layout is indeed responsive and all pages’ change depending on the screen size
+
 Pass
-5
+
+# 5
+
 Does back to top link work
+
 The user should be taken to top of page when back to top link is clicked
+
 The user is taken to top of page when link is clicked
+
 Pass
-6
+
+# 6
+
 Does flex box in about page change layout appropriately when screen size is changed
+
 The flex box layout should change when screen size is changed
 The layout is in a row when screen size is small and in a column when screen size is medium or large
 Pass

@@ -240,6 +240,8 @@ Section – 3
 	Section - 4 
 
 
+For more infomrtion please open the Wireframe folder, to see all the designe and and layout of the website. 
+
 
 
 

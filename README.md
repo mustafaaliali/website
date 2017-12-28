@@ -26,7 +26,8 @@ Testing
 3 - Actual Results
 4 - Pass/Fail
 
-1
+# 1
+
 Testing Navigation bar is responsive
 
 Navigation bar to change style when screen is smaller/larger

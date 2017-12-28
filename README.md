@@ -158,7 +158,7 @@ It display the correct time
 Pass 
 
 # 15
-Do the slider on the images word 
+Do the slider on the images work 
 
 Yes it is display all the images on the slider section and it works. 
 

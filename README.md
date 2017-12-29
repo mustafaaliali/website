@@ -221,7 +221,7 @@ SVG clock - http://www.3quarks.com/en/SVGClock/
 
 The site is compatible with Chrome/FireFox and safari.
 
-There are some issues regarding API map for Firefox on FireFox you have to refresh the page few time before you can find the right location on the map or map has to be displayed and  which need to be sorted out for a flowing site but dues to shortage of time it was not addressed.
+There are some issues regarding API map for Firefox on FireFox you have to refresh the page few time before you can find the right location on the map or map has to be displayed and  which need to be sorted out for a flowing site but dues to shortage of time it was not addressed. but some time the webiste is work on the safri or not loddding wehn you open the them. 
 
 # Improvements/Criticism Improvements
 
